@@ -1,0 +1,6 @@
+.flex{
+    display: flex;
+}
+.item-center{
+    align-items: center;
+}
