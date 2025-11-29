@@ -14,6 +14,9 @@
     -webkit-font-smotthing:antialiased;
 
 }
+body{
+    font-family: 'poppins,' sans-serif;
+}
 header {
     background-color: var(--dark);
     text-decoration: none ;
@@ -22,9 +25,23 @@ header {
     max-width: 1152px;
     padding: 0 15px;
     margin: 0 auto;
-    height: 2   00px;
+    height: 600px;
 }
 
 header nav .left a{
     color: var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+header nav .left a:hover {
+    color: var(--primary);
+}
+
+header nav {
+    padding: 2rem 0;
+}
+header nav .branding {
+    margin-right: 3rem;
 }
