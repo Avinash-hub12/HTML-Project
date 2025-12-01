@@ -10,7 +10,7 @@
 .btn {
     padding: 0.8rem 3rem;
     font-size: 1rem;
-    font-weight: 600px;
+    font-weight: 600;
     border: 2px solid transparent;
     outline: none;
     cursor: pointer;
@@ -19,10 +19,33 @@
 .btn-primary {
     background: var(--primary);
     color: var(--dark);
+    margin-left: auto;
 }
 .btn-primary:hover{
     background-color: transparent;
     color: var(--primary);
     border-color: var(--primary);
     transition: all .4s;
+}
+.hero .right {
+    font-size: 1.5rem;
+    color: var(--primary);
+    margin-bottom: 10px;
+    
+}
+.btn-secondary{
+    background: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+}
+.btn-secondary:hover{
+    background: var(--primary);
+    color: var(--dark);
+}
+.flex-1{
+    flex: 1;
+    
+}
+.justify-center{
+    justify-content: center;
 }

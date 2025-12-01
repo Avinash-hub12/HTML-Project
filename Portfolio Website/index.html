@@ -1,52 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Awesome Portfolio Website</title>
-    
-<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
-</head>
 
-<body>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
     <header>
-        <div class="container">
-        <nav class="flex item-center justify-between">
-            <div class="left flex item-center">
-                <div class="branding">
-                    <img src="./images/logo.svg" alt="">
-                </div>
-                <div>
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Services</a>
-                    <a href="#">Pages</a>
-                    <a href="#">Blogs</a>
-                </div>
+      <div class="container">
+        <nav class="flex item-center">
+          <div class="left flex item-center">
+            <div class="branding">
+              <img src="./images/logo.svg" alt="" />
             </div>
-            <div class="Right">
-                <button class="btn btn-primary">Contact</button>
+            <div>
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Pages</a>
+              <a href="#">Blogs</a>
             </div>
+          </div>
+          <div class="Right">
+            <button class="btn btn-primary">Contact</button>
+          </div>
         </nav>
-        <div class="hero">
-            <div class="left">
-                <img src="./images/man.png" alt="">
+        <div class="hero flex item-center justify-between">
+          <div class="left flex-1 flex justify-center">
+            <img src="./images/man.png" alt="" />
+          </div>
+          <div class="right flex-1">
+            <h6>Avinash Gunawat</h6>
+            <h1>I'm a Creative <br /><span>Designer</span></h1>
+            <p>
+              A web designer creates and develops the visual and interactive
+              aspects of websites, focusing on appearance, layout, and user
+              experience. They use a variety of skills, including design
+              software and coding languages, to build and maintain websites that
+              are both aesthetically pleasing and functional for users across
+              different devices.
+            </p>
+            <div>
+              <button class="btn btn-secondary">DOWNLOAD CV</button>
             </div>
-            <div class="right">
-                <h6>Johnathan Vics</h6>
-                <h1>I'm a Creative <span>Designer</span></h1>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                     Aut iusto non esse aliquid libero vel recusandae voluptatibus,
-                     ullam laborum tempora sed eaque consectetur, quis impedit amet, ea odio minima? Error?</p>
-                     <div>
-                        <button>DOWNLOAD CV</button>
-                        </div>
-            </div>
+          </div>
         </div>
-        </div>
+      </div>
     </header>
-    
-</body>
 
+    <section class="About">
+      <div class="contianer flex item-center justify-between">
+        <div class="flex-1 flex justify-center">
+          <img class="about-me-img" src="./images/man-2.png" alt="" />
+        </div>
+        <div class="flex-1">
+          <h1>About <span style="color: #3dcfd3">Me</span></h1>
+          <h3>Hi! i am Johnathan Vics</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore
+            eaque incidunt, quibusdam nobis enim similique quas dolorem
+            consequatur aliquid odit, itaque quod minima. Exercitationem eum
+            dolorem similique labore corrupti impedit?
+          </p>
+          <div>
+            <a href="#"><img src="./images/website.svg" alt="" /></a>
+            <a href="#"><img src="./images/facebook.svg" alt="" /></a>
+            <a href="#"><img src="./images/twitter.svg" alt="" /></a>
+            <a href="#"><img src="./images/pintrest.svg" alt="" /></a>
+            <a href="#"><img src="./images/instagram.svg" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
